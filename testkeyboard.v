@@ -118,7 +118,7 @@ module testkeyboard(
 //===========================================//
 /*
 
-VGA MODULE: Modified by Parth Patel, Ian Baker, and Yi Zhan
+VGA MODULE: Modified by Austin Dulaney and Carlos 
 
 Most of all the code here is modified to basic VGA Displaying capabilities,
 
