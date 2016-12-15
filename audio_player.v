@@ -1,6 +1,5 @@
-//This code has beed adapted from John Loomis' source code for outputting audio on the DE2.  His code can be found here: http://www.johnloomis.org/digitallab/audio/audio2/audio2.html
-//The various frequences we used were based upon information from Wikipeida regarding piano notes and frequencies.  This information can be found here: http://en.wikipedia.org/wiki/Piano_key_frequencies
-//Aaron Pittenger and Rachel Grady have made the modifications to this code.
+//This code has beed adapted from John Loomis' source code for outputting audio on the DE2.
+//Austin Dulaney and Carlos have made modifications to the code below
 
 module audio_player(
   // Clock Input (50 MHz)
@@ -274,11 +273,7 @@ endmodule
 
 
 
-// This is sort of a copy of the "testkeytolcd.v" file.
-// The .v files that need to be included in the "helper
-// modules" folder are "oneshot.v" and "keyboard.v"
-// Keyboard input is a modified version of from John
-// Loomis's "ps2lab1" project
+
 
 module testkeyboard(
 		CLOCK_50,keyboard_clk, keyboard_data,
