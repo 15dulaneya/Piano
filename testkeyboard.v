@@ -1,8 +1,5 @@
-// This is sort of a copy of the "testkeytolcd.v" file.
-// The .v files that need to be included in the "helper
-// modules" folder are "oneshot.v" and "keyboard.v"
-// Keyboard input is a modified version of from John
-// Loomis's "ps2lab1" project
+// "oneshot.v",  "keyboard.v", and the keyboard input for this module are modified versions of John Loomis' "ps2lab1"
+
 
 module testkeyboard(
 		CLOCK_50,keyboard_clk, keyboard_data,
