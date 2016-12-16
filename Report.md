@@ -6,7 +6,7 @@ Design Description
 
 Keyboard
 
-The first part of the problem that we chose to tackle was getting communication from the PS2 keyboard to the Altera DE2 board. One helpful source for this problem was john loomis. We wanted to be able to display the note that the user is playing on the hex displays of the DE2 board. One issue that we ran into was that the note we played would not stop displaying once we let go of the corresponding key. In order to fix this problem we had to use the break codes sent from the keyboard to let the board know that the key is no longer being held down
+The first part of the problem that we chose to tackle was getting communication from the PS2 keyboard to the Altera DE2 board. One helpful source for this problem was john loomis. We wanted to be able to display the note that the user is playing on the hex displays of the DE2 board. One issue that we ran into was that the note we played would not stop displaying once we let go of the corresponding key. In order to fix this problem we had to use the break codes sent from the keyboard to let the board know that the key is no longer being held down.
 
 VGA
 
